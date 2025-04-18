@@ -1,12 +1,10 @@
 sentence-transformers==4.1.0
-langchain
+langchain==0.3.23
 flask
-pypdf
-python-dotenv
+pypdf==5.4.0
+python-dotenv==1.1.0
 pinecone[grpc]
-langchain-pinecone
-langchain_community
-langchain_openai
+langchain-pinecone==0.2.5
+langchain-community==0.3.21
 langchain-groq==0.3.2
-langchain_experimental
--e .
+langchain-experimental==0.3.4
